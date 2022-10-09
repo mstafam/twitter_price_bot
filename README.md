@@ -1,4 +1,4 @@
-# Twiiter Price bot
+# Twitter Price bot
 This program pulls the price and 24-hour price changes of specified cryptocurrencies(in this case Bitcoin and Ethereum) from Coingecko, via their API. Then, it formats the price data, and tweets it using the tweepy api. Additionally, this program utilizes the apscheduler library to run the script every set interval(in this case bi-hourly).
 
 **Requirements to run this program:**
