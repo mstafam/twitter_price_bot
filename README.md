@@ -3,9 +3,11 @@ This program pulls the price and 24-hour price changes of specified cryptocurren
 
 **Requirements to run this program:**
 1. You must have valid Twitter Authentication. You can learn more [here.](https://developer.twitter.com/en/docs/authentication/overview)
-2. You must have the required libraries installed on your machine, you can install them using the command:
+2. You must have the following required libraries installed on your machine, you can install them using the commands:
 ```
- pip install requiredlibs.txt
+ pip install tweepy
+ pip install pycoingecko
+ pip install apscheduler
 ```
 **License:**
 MIT License
